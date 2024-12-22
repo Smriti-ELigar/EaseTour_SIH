@@ -1,0 +1,28 @@
+html, body {
+    height: 100%;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #root {
+    flex-grow: 1; /* Ensures the main content expands to fill the space */
+  }
+  
+  .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Keeps it on top if needed */
+    height: 60px; /* Set a specific height */
+    line-height: 50px; /* Center content vertically */
+    padding: 0 15px; /* Adjust padding if needed */
+  }
+  
+  .footer .btn {
+    margin: 0; /* Adjust margin if needed */
+  }
+  
